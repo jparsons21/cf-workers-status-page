@@ -18,7 +18,7 @@ monitors:
   - id: caia-test # unique identifier
     name: caia-test.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://caia-test.treasury.gov/' # URL to fetch
+    url: 'https://caia-test.treasury.gov/.well-known/openid-configuration' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -27,7 +27,7 @@ monitors:
   - id: caia-dev # unique identifier
     name: caia-dev.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://caia-dev.treasury.gov/' # URL to fetch
+    url: 'https://caia-dev.treasury.gov/.well-known/openid-configuration' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -36,7 +36,7 @@ monitors:
   - id: caia-acc # unique identifier
     name: caia-acc.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://caia-acc.treasury.gov/' # URL to fetch
+    url: 'https://caia-acc.treasury.gov/.well-known/openid-configuration' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -45,7 +45,7 @@ monitors:
   - id: caia # unique identifier
     name: caia.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://caia.treasury.gov/' # URL to fetch
+    url: 'https://caia.treasury.gov/.well-known/openid-configuration' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false

@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: caia-dev # unique identifier
-    name: caia-test.treasury.gov
+    name: caia-dev.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://caia-dev.treasury.gov/' # URL to fetch
     method: GET # default=GET
@@ -34,7 +34,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: caia-acc # unique identifier
-    name: caia-test.treasury.gov
+    name: caia-acc.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://caia-acc.treasury.gov/' # URL to fetch
     method: GET # default=GET
@@ -43,7 +43,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: caia # unique identifier
-    name: caia-test.treasury.gov
+    name: caia.treasury.gov
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://caia.treasury.gov/' # URL to fetch
     method: GET # default=GET
